@@ -3,5 +3,11 @@
     "dokku": {
       "predeploy": "bash start.sh"
     }
-  }
+  },
+  "cron": [
+    {
+      "command": "php -q /app/clientexec/cron.php",
+      "schedule": "* * * * *"
+    }
+  ]
 }
