@@ -19,4 +19,5 @@ else
   unzip clientexec_6_7_0_ioncube.zip
   rm clientexec_6_7_0_ioncube.zip
   cp clientexec/htaccess.txt clientexec/.htaccess
+  mv .user.ini clientexec/.user.ini
 fi
