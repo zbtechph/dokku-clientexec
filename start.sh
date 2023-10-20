@@ -16,7 +16,7 @@ if [ -d "clientexec" ]; then
   echo "clientexec folder already exists"
 else
   wget https://clientexec.s3.amazonaws.com/clientexec_6_7_0_ioncube.zip
-  unzip clientexec_6_6_1_ioncube.zip
-  rm clientexec_6_6_1_ioncube.zip
+  unzip clientexec_6_7_0_ioncube.zip
+  rm clientexec_6_7_0_ioncube.zip
   cp clientexec/htaccess.txt clientexec/.htaccess
 fi
