@@ -1,8 +1,6 @@
 {
   "scripts": {
-    "dokku": {
-      "predeploy": "bash start.sh"
-    }
+    "postdeploy": "bash start.sh"
   },
   "cron": [
     {
